@@ -7,59 +7,67 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <link  rel="stylesheet" href="css/external.css">
+
+   <!--<meta http-equiv="Content-type" content="text/html;charset=ISO-8859-1">-->
  </head>
  
 <body>
 
-<div class="container">     <!--MAIN CONTAINER -->
 
+<div class="container">     <!--MAIN CONTAINER -->
 
 
  <div class="navbar navbar-inverse navbar-fixed-top">
 
 
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#data11">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#data11">
 
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+		</button>
 
 
 
  	<!-- <div class="container-fluid" id="data11" >    -->  <!--NAV CONTAINER -->
      <div class="navbar-header">
-      <a class="navbar-brand" href="#">INDIAN ARMY</a>
+      <a class="navbar-brand" href="#">Indian Army</a>
      </div>
 
-     <ul class="nav navbar-nav pull-left" id="data11">
-       <li class="active"><a href="#">HOME <span class="caret"></span></a></li>
-       <li class="active"> <a href="#">INDIAN ARMY <span class="caret"></span></a></li>
-       <li class="active"> <a href="#">LIFE IN ARMY <span class="caret"></span></a></li>
-       <li class="active dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">OFFICER SELECTION <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-        <li><a href="#">TGC</a></li>
-        <li><a href="#">NDA</a></li>
-        <li><a href="#">UES</a></li>
-
-
-
-        </ul>
-
-
-
-       </li>
-       <li class="active"> <a href="#">JCO SELECTION <span class="caret"></span></a></li>
-       <li class="active"> <a href="#">GALLERY <span class="caret"></span></a></li>
-       <li class="active"><a href="#">CONTACT <span class="caret"></span></a></li>
-       
-           
-     <form class="navbar-form navbar-right" id="firstform">
-      <input type="text" class="form-control">
-      <input type="submit" class="btn btn-success" value="Search">
-     </form>
+     <div class="collapse navbar-collapse">
+     	<ul class="nav navbar-nav pull-right" id="data11">
+	       <li class="active listitem"><a href="#">Home <span class="caret"></span></a></li>
+	      <!-- <li class="active"> <a href="#">INDIAN ARMY <span class="caret"></span></a></li>-->
+	     <!--  <li class="active"> <a href="#">LIFE IN ARMY <span class="caret"></span></a></li>-->
+	       <li class="active listitem dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Officer Selection <span class="caret"></span></a>
+		        <ul class="dropdown-menu">
+			        <li><a href="#">TGC</a></li>
+			        <li><a href="#">NDA</a></li>
+			        <li><a href="#">UES</a></li>
+				</ul>
+		  </li>
+	       <li class="active listitem"> <a href="#">JCO Selection <span class="caret"></span></a></li>
+	       <li class="active listitem"> <a href="llink.html">Gallery <span class="caret"></span></a></li>
+	      <!-- <li class="active"><a href="#">CONTACT <span class="caret"></span></a></li>-->
+	       <li>
+	           <form class="navbar-form" id="firstform">
+	           		<div class="button-group">
+	           			<input type="text" class="form-control"><span  class="button-group-addon">
+	           				<a href="#"><i class="glyphicon glyphicon-search"></i></a>
+	           			</span>
+	           		</div>
+	           	</li>
+			<!--<li>
+			 <form class="navbar-form" id="firstform">
+	      <input type="text" class="form-control"><span>
+	      	<a href="#">
+	      </span>>
+	      <input type="submit" class="btn btn-success" value="Search">
+	     </form></li>-->
+	     
         
      </ul>      <!--END NAV UL(navigation) -->
+     </div><!--outer nav-->
 
 
      
@@ -137,8 +145,8 @@
  <div class="col-md-4 " style="padding-left:0px;">
  <img src="images/navy.jpg" alt="image not found" height="120px" width="300px">
  <br>
- <h3>NAVY</h3>
- <p>The Indian Navy can trace its lineage back to the East India Company's Marine which was founded in 1612 to protect British merchant shipping in the region. In 1793 the East India Company established its rule over eastern part of the Indian subcontinent i.e. Bengal, but it was not until 1830 that the colonial navy became known as Her Majesty's Indian Navy...</p>
+ <h1 class="modify">NAVY</h1>
+ <p class="h1 backgroundcolor">The Indian Navy can trace its lineage back to the East India Company's Marine which was founded in 1612 to protect British merchant shipping in the region. In 1793 the East India Company established its rule over eastern part of the Indian subcontinent i.e. Bengal, but it was not until 1830 that the colonial navy became known as Her Majesty's Indian Navy...</p>
 
  </div>
 
@@ -149,9 +157,9 @@
  <div class="col-md-4" >
  <img src="images/air.jpg" alt="image not found" height="120px" width="300px" >
  <br>
- <h3>AIR FORCE</h3>
+ <h1 class="modify">AIR FORCE</h1>
 
- <p>The Indian Air Force (IAF; IAST: Bhāratīya Vāyu Senā) is the air arm of the Indian armed forces. It is the world's fourth largest air force in terms of both personnel and aircraft.[7] Its primary responsibility is to secure Indian airspace and to conduct aerial warfare during a conflict. It was officially established on 8 October 1932 as an auxiliary air force.</p>
+ <p class="h1 backgroundcolor">The Indian Air Force (IAF; IAST: Bhāratīya Vāyu Senā) is the air arm of the Indian armed forces. It is the world's fourth largest air force in terms of both personnel and aircraft.[7] Its primary responsibility is to secure Indian airspace and to conduct aerial warfare during a conflict. It was officially established on 8 October 1932 as an auxiliary air force.</p>
  </div>
 
  
@@ -161,8 +169,8 @@
  <div class="col-md-4" style="padding-right:0px;">
  <img src="images/indianarmy.jpg" alt="image not found" height="120px" width="300px">
  <br>
- <h3>ARMY</h3>
- <p>The Indian Army is the land-based branch and the largest component of the Indian Armed Forces. The President of India serves as the Supreme Commander of the Indian Army,and it is commanded by the Chief of Army Staff (COAS), who is a four-star general. Two officers have been conferred with the rank of field marshal, a five-star rank, which is a ceremonial position of great honour.</p>
+ <h1 class="modify">ARMY</h1>
+ <p class="h1 backgroundcolor">The Indian Army is the land-based branch and the largest component of the Indian Armed Forces. The President of India serves as the Supreme Commander of the Indian Army,and it is commanded by the Chief of Army Staff (COAS), who is a four-star general. Two officers have been conferred with the rank of field marshal, a five-star rank, which is a ceremonial position of great honour.</p>
  </div>
 
  </div> <!--row end-->

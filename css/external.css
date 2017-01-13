@@ -26,5 +26,25 @@
 #firstform
 
 {
-	padding-left: 220px;
+	
+}
+
+.modify
+{
+	color:green;
+}
+
+.backgroundcolor
+{
+	
+	
+}
+
+@media (max-width: 947px)
+{
+	.nav>li>a
+	{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
 }
